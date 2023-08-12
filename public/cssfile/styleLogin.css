@@ -1,0 +1,26 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+margin-top: 100px;
+margin-right: 300px;
+}
+.footer{
+    margin-top: 150px;
+    background-color: rgba(72, 100, 31, 0.819);
+    text-align: center;
+   
+    
+
+     padding: 20px;
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
